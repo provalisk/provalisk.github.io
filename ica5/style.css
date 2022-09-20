@@ -8,7 +8,6 @@ html {
 
 body {
   margin: 0;
-  background: #ccc;
 }
 
 article {
@@ -36,6 +35,21 @@ h1 {
   padding: 44px 0;
   color: white;
   text-shadow: 1px 1px 1px black;
+  background-image: url(logo.png);
+  box-shadow: 4px 4px 4px black;
+  border-radius: 100%;
 }
 
 /* Your CSS below here */
+article {
+  background:url(top-image.png), url(bottom-image.png);
+  background-repeat: no-repeat;
+  background-position: top, bottom;
+  border-top: solid 3px red;
+  border-bottom: solid 3px #990001;
+}
+
+body {
+  background: linear-gradient(rgba(120, 120, 120, 0.286), rgba(255, 255, 255, 0), rgba(120, 120, 120, 0.514));
+  background-color: #fff;
+}
