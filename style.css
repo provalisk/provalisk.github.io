@@ -1,0 +1,6 @@
+@font-face {font-family:JB;src:url(https://static1.squarespace.com/static/625f8351c516853b6bff8f94/t/6316ff9048096607f1f9b498/1662451600591/JetBrainsMono-Regular.woff2)}
+
+.h1 {
+  font-family: 'JB';
+  text-transform: none;
+}
