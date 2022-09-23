@@ -1,6 +1,21 @@
-@font-face {font-family:JB;src:url(https://static1.squarespace.com/static/625f8351c516853b6bff8f94/t/6316ff9048096607f1f9b498/1662451600591/JetBrainsMono-Regular.woff2)}
+@font-face {
+  font-family: "JB";
+  src: url("JetBrainsMono-Regular.woff2") format("woff");
+}
 
-.h1 {
+h1 {
   font-family: 'JB';
-  text-transform: none;
+  font-weight:normal;
+  font-style:normal;
+}
+
+h2 {
+  font-family: 'JB';
+  font-weight:normal;
+  font-style:normal;
+}
+p {
+  font-family: 'JB';
+  font-weight:normal;
+  font-style:normal;
 }
