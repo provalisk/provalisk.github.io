@@ -56,17 +56,17 @@ p {
 }
 
 a {
-    color: #0A84FF;
+    color: #FFB100;
     text-decoration: none !important;
 }
 
 a:hover {
-    color: #0A84FF;
+    color: #FFB100;
     text-decoration: underline !important;
 }
 
 a:visited {
-  color: #fff000;
+  color: #78A1BE;
   text-decoration: none !important;
 }
 
