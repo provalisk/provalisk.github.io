@@ -107,7 +107,7 @@ hr {
 
 /* Button Styles */
 
-.Button {
+.button {
 	background-color:#65a376;
 	border-radius:10px;
 	border:1px solid #18ab29;
@@ -119,10 +119,10 @@ hr {
 	padding:16px 31px;
 	text-decoration:none;
 }
-.Button:hover {
+.button:hover {
 	background-color:#5297ff;
 }
-.Button:active {
+.button:active {
 	position:relative;
 	top:1px;
 }
