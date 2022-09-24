@@ -107,46 +107,23 @@ hr {
 
 /* Button Styles */
 
-.button {
-  background-color: red;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
+a.button1{
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 10px;
-}
+  padding: 0.35em 1.2em;
+  border: 2px solid #00BA6E;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 10px
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'MG';
+  font-weight:700;
+  text-transform: uppercase;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+  }
 
-.button1 {
-  background-color: orange; 
-  color: yellow; 
-  border: 2px solid blue;
-  border-radius: 10px;
-  transition: background-color .5s;
-  box-shadow: 5px 5px #00BA6E;
-  transition: all ease-in .05s;
-}
-
-.button1:hover {
-  background-color: purple;
-  color: pink;
-  border-radius: 10px;
-  background-color: darkgoldenrod;
-  box-shadow: 5px 5px lightcoral;
-  transition: background-color .5s;
-  transition: all ease-in .05s;
-}
-
-.button:active {
-  background-color: lightseagreen;
-  box-shadow: 0 5px royalblue;
-  transform: translateY(4px);
-  border-radius: 10px;
-  box-shadow: none;
-  transform: translateY(4px) !important;
-  transition: all ease-in .05s;
-}
+a.button1:hover{
+  color:#000000;
+  background-color:#0d571f;
+  }
