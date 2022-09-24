@@ -64,6 +64,14 @@ a:visited {
   text-decoration: none !important;
 }
 
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+hr {
+  border: 0;
+  height: 1px;
+  color: #00BA6E;
+}
+
 .pill-warning {
   display: block;
   text-align: left;
