@@ -113,16 +113,16 @@ hr {
   border: 2px solid #00BA6E;
   margin: 0 0.3em 0.3em 0;
   border-radius: 10px
-  text-decoration:none;
-  font-family:'MG';
-  font-weight:700;
+  text-decoration: none;
+  font-family: 'MG';
+  font-weight: 700;
   text-transform: uppercase;
-  color:#FFFFFF;
-  text-align:center;
+  color: #FFFFFF;
+  text-align: center;
   transition: all 0.2s;
-  }
+}
 
 .button:hover {
-  color:#000000;
-  background-color:#0d571f;
+  color: #000000;
+  background-color: #0d571f;
 }
