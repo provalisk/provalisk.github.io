@@ -52,7 +52,7 @@ h6 {
 
 p {
   font-family: 'JB';
-  font-size: 12px;
+  font-size: 16px;
 }
 
 a {
@@ -89,7 +89,7 @@ hr.a {
   color: #fff !important;
   border-radius: 10px;
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   padding: 10px 16px;
   width: auto;
 }
@@ -99,7 +99,7 @@ hr.a {
   color: #fff !important;
   border-radius: 10px;
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   padding: 10px 16px;
   width: auto;
 }
