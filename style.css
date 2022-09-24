@@ -108,7 +108,7 @@ hr {
 /* Button Styles */
 
 .button {
-  background-color: #4CAF50;
+  background-color: red;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -122,9 +122,9 @@ hr {
 }
 
 .button1 {
-  background-color: white; 
-  color: red; 
-  border: 2px solid #4CAF50;
+  background-color: orange; 
+  color: yellow; 
+  border: 2px solid blue;
   border-radius: 10px;
   transition: background-color .5s;
   box-shadow: 5px 5px #00BA6E;
@@ -132,19 +132,18 @@ hr {
 }
 
 .button1:hover {
-  background-color: #4CAF50;
-  color: white;
+  background-color: purple;
+  color: pink;
   border-radius: 10px;
-  color: #fff;
-  background-color: #00BA6E;
-  box-shadow: 5px 5px #00BA6E;
+  background-color: darkgoldenrod;
+  box-shadow: 5px 5px lightcoral;
   transition: background-color .5s;
   transition: all ease-in .05s;
 }
 
 .button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
+  background-color: lightseagreen;
+  box-shadow: 0 5px royalblue;
   transform: translateY(4px);
   border-radius: 10px;
   box-shadow: none;
