@@ -107,21 +107,20 @@ hr.a {
 /* Button Styles */
 
 .button {
-  display: inline-block;
-  padding: 0.35em 1.2em;
-  border: 2px solid #00BA6E;
-  margin: 0 0.3em 0.3em 0;
-  border-radius: 10px
-  text-decoration: none;
-  font-family: 'MG';
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  text-align: center;
-  transition: all 0.2s;
+	background-color:#000;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#FFB100;
+	font-family:MG;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
 }
-
 .button:hover {
-  color: #000000;
-  background-color: #0d571f;
+	background-color:#fff;
+}
+.button:active {
+	position:relative;
+	top:1px;
 }
