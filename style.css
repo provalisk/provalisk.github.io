@@ -116,12 +116,20 @@ hr {
   color: black; 
   border: 2px solid #4CAF50;
   border-radius: 10px;
+  transition: background-color .5s;
+  box-shadow: 5px 5px #00BA6E;
+  transition: all ease-in .05s;
 }
 
 .button1:hover {
   background-color: #4CAF50;
   color: white;
   border-radius: 10px;
+  color: #fff;
+  background-color: #00BA6E;
+  box-shadow: 5px 5px #00BA6E;
+  transition: background-color .5s;
+  transition: all ease-in .05s;
 }
 
 .button:active {
@@ -129,3 +137,7 @@ hr {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
   border-radius: 10px;
+  box-shadow: none;
+  transform: translateY(4px) !important;
+  transition: all ease-in .05s;
+}
