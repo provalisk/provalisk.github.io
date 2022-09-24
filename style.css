@@ -107,22 +107,22 @@ hr {
 
 /* Button Styles */
 
-.button {
-  display: inline-block;
-  padding: 0.35em 1.2em;
-  border: 2px solid #00BA6E;
-  margin: 0 0.3em 0.3em 0;
-  border-radius: 10px
-  text-decoration: none;
-  font-family: 'MG';
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  text-align: center;
-  transition: all 0.2s;
+.Button {
+	background-color:#65a376;
+	border-radius:10px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Mongoose;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
 }
-
-.button:hover {
-  color: #000000;
-  background-color: #0d571f;
+.Button:hover {
+	background-color:#5297ff;
+}
+.Button:active {
+	position:relative;
+	top:1px;
 }
