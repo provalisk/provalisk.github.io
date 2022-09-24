@@ -107,20 +107,18 @@ hr.a {
 /* Button Styles */
 
 .button {
-	background-color: #000;
-	border-radius: 10px;
-	display: inline-block;
-	cursor: pointer;
-	color: #FFB100;
-	font-family: MG;
-	font-size: 80px;
-	padding: 16px 31px;
-	text-decoration: none;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: MG;
+  font-size: 80px;
+  background: #000000;
+  padding: 16px 40px 16px 40px;
+  text-decoration: none;
 }
+
 .button:hover {
-	background-color: #fff;
-}
-.button:active {
-	position: relative;
-	top: 1px;
+  background: #FFB100;
+  text-decoration: none;
 }
