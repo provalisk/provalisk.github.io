@@ -3,14 +3,19 @@
   src: url("/fonts/JetBrainsMono-Regular.woff2") format("woff");
 }
 
+@font-face {
+  font-family: "MG";
+  src: url("/fonts/Mongoose.ttf") format("truetype");
+}
+
 h1 {
-  font-family: 'JB';
+  font-family: 'MG';
   font-weight:normal;
   font-style:normal;
 }
 
 h2 {
-  font-family: 'JB';
+  font-family: 'MG';
   font-weight:normal;
   font-style:normal;
 }
