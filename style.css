@@ -19,8 +19,50 @@ h2 {
   font-weight:normal;
   font-style:normal;
 }
+
+h3 {
+  font-family: 'MG';
+  font-weight:normal;
+  font-style:normal;
+}
+
+h4 {
+  font-family: 'MG';
+  font-weight:normal;
+  font-style:normal;
+}
+
+h5 {
+  font-family: 'MG';
+  font-weight:normal;
+  font-style:normal;
+}
+
+h6 {
+  font-family: 'MG';
+  font-weight:normal;
+  font-style:normal;
+}
+
 p {
   font-family: 'JB';
   font-weight:normal;
   font-style:normal;
 }
+
+a {
+    color: #0A84FF;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #0A84FF;
+    text-decoration: underline !important;
+}
+
+a:visited {
+  color: #fff000;
+  text-decoration: none !important;
+}
+
+
