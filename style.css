@@ -10,44 +10,37 @@
 
 h1 {
   font-family: 'MG';
-  font-weight:normal;
-  font-style:normal;
+  text-transform: uppercase;
 }
 
 h2 {
   font-family: 'MG';
-  font-weight:normal;
-  font-style:normal;
+  text-transform: uppercase;
 }
 
 h3 {
   font-family: 'MG';
-  font-weight:normal;
-  font-style:normal;
+  text-transform: uppercase;
 }
 
 h4 {
   font-family: 'MG';
-  font-weight:normal;
-  font-style:normal;
+  text-transform: uppercase;
 }
 
 h5 {
   font-family: 'MG';
-  font-weight:normal;
-  font-style:normal;
+  text-transform: uppercase;
 }
 
 h6 {
   font-family: 'MG';
-  font-weight:normal;
-  font-style:normal;
+  text-transform: uppercase;
 }
 
 p {
   font-family: 'JB';
-  font-weight:normal;
-  font-style:normal;
+  font-size: 12px;
 }
 
 a {
@@ -79,3 +72,33 @@ a:visited {
   width: auto;
 }
 
+::selection {
+  background: #00BA6E;
+  color: #FFFFFF;
+}
+::-moz-selection {
+  background: #00BA6E;
+  color: #FFFFFF;
+}
+
+//IDK//
+
+.button1 {
+  transition: background-color .5s;
+  box-shadow: 5px 5px #00BA6E;
+  transition: all ease-in .05s;
+}
+
+.button1:hover {
+  color: #fff;
+  background-color: #00BA6E;
+  box-shadow: 5px 5px #00BA6E;
+  transition: background-color .5s;
+  transition: all ease-in .05s;
+}
+
+.button1:active {
+  box-shadow: none;
+  transform: translateY(4px) !important;
+  transition: all ease-in .05s;
+}
