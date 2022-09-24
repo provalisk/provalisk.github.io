@@ -1,6 +1,6 @@
 @font-face {
   font-family: "JB";
-  src: url("JetBrainsMono-Regular.woff2") format("woff");
+  src: url("/fonts/JetBrainsMono-Regular.woff2") format("woff");
 }
 
 h1 {
