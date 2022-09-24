@@ -123,5 +123,5 @@ hr.a {
 }
 
 .button:active {
- transform: scale(1);
+ transform: scale(0.95);
 }
