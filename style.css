@@ -108,19 +108,18 @@ hr {
 /* Button Styles */
 
 .button {
-	background-color:#65a376;
+	background-color:#000;
 	border-radius:10px;
-	border:1px solid #18ab29;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
-	font-family:Mongoose;
+	color:#FFB100;
+	font-family:MG;
 	font-size:20px;
 	padding:16px 31px;
 	text-decoration:none;
 }
 .button:hover {
-	background-color:#5297ff;
+	background-color:#fff;
 }
 .button:active {
 	position:relative;
