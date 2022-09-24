@@ -65,4 +65,17 @@ a:visited {
   text-decoration: none !important;
 }
 
+.pill-warning {
+  display: block;
+  text-align: left;
+}
+.pill {
+  background: #FFC530 !important;
+  color: #000 !important;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 16px;
+  width: auto;
+}
 
