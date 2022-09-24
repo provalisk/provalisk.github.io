@@ -56,12 +56,12 @@ p {
 }
 
 a {
-    color: #FFB100;
+    color: #7CAB65;
     text-decoration: none !important;
 }
 
 a:hover {
-    color: #FFB100;
+    color: #7CAB65;
     text-decoration: underline !important;
 }
 
@@ -84,8 +84,8 @@ hr.a {
   text-align: left;
 }
 .pill {
-  background: #FFC530 !important;
-  color: #000 !important;
+  background: #D16F70 !important;
+  color: #fff !important;
   border-radius: 10px;
   display: inline-block;
   font-size: 14px;
@@ -96,11 +96,11 @@ hr.a {
 /* Text Selection Highlight Style */
 
 ::selection {
-  background: #00BA6E;
+  background: #FFB100;
   color: #FFFFFF;
 }
 ::-moz-selection {
-  background: #00BA6E;
+  background: #FFB100;
   color: #FFFFFF;
 }
 
@@ -121,6 +121,7 @@ hr.a {
 .button:hover {
   background: #FFB100;
   text-decoration: none;
+  color: #fff;
 }
 
 .button:active {
