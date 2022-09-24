@@ -1,3 +1,5 @@
+/* Font Import */
+
 @font-face {
   font-family: "JB";
   src: url("/fonts/JetBrainsMono-Regular.woff2") format("woff");
@@ -7,6 +9,8 @@
   font-family: "MG";
   src: url("/fonts/Mongoose.ttf") format("truetype");
 }
+
+/* Header Styles */
 
 h1 {
   font-family: 'MG';
@@ -44,6 +48,8 @@ h6 {
   font-size: 20px;
 }
 
+/* Paragraph and Link Styles */
+
 p {
   font-family: 'JB';
   font-size: 12px;
@@ -64,11 +70,15 @@ a:visited {
   text-decoration: none !important;
 }
 
+/* Horizontal Divider Line Style */
+
 hr {
   border: 0;
   height: 1px;
   color: #00BA6E;
 }
+
+/* Warning Pill Style */
 
 .pill-warning {
   display: block;
@@ -84,6 +94,8 @@ hr {
   width: auto;
 }
 
+/* Text Selection Highlight Style */
+
 ::selection {
   background: #00BA6E;
   color: #FFFFFF;
@@ -92,6 +104,8 @@ hr {
   background: #00BA6E;
   color: #FFFFFF;
 }
+
+/* Button Styles */
 
 .button {
   background-color: #4CAF50;
@@ -109,7 +123,7 @@ hr {
 
 .button1 {
   background-color: white; 
-  color: black; 
+  color: red; 
   border: 2px solid #4CAF50;
   border-radius: 10px;
   transition: background-color .5s;
