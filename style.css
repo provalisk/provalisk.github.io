@@ -141,5 +141,6 @@ hr.a {
 
 @media only screen and (min-width: 600px) {
   background-color: black;
+  display: flex;
 }
 
