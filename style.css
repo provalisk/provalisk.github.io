@@ -139,14 +139,14 @@ hr.a {
  transform: scale(0.95);
 }
 
-@media screen and (min-width: 900px) {
-  .page-section{background: linear-gradient(315deg, #16bffd, #cb3066);
-    background-size: 1000% 1000%;
+@media only screen and (min-width: 300px) {
+  body {
+    background-color: lightgreen;
+  }
+}
   
-      animation: BackgroundGradient 4s ease infinite;}
-  
-  @keyframes BackgroundGradient { 
-      0%{background-position:0% 50%}
-      50%{background-position:100% 50%}
-      100%{background-position:0% 50%}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
