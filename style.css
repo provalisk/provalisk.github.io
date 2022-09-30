@@ -155,15 +155,25 @@ hr.a {
 header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
-    padding: 20px 50px;
-    box-shadow: 0 1px 8px #ddd;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    background-color: green;
 }
 
 nav-title {
-    margin-right: auto;
     font-family: MG;
-    font-size: 0.6em;
+    font-size: 10px;
+    padding: 12px 10px;
+}
+
+nav-title a:hover: {
+  background-color: #00BA6E;
+  color: #fff;
+  border-radius: 10px;
+  padding: 12px 10px;
 }
 
 header li {
@@ -177,8 +187,13 @@ header a {
     text-decoration: none;
     color: #555;
     transition: all 0.3s ease 0s;
+    padding: 12px 10px;
 }
 
 header a:hover {
-    color: #b2dfdb;
+  text-decoration: none;
+  background-color: #fff;
+  color: #00BA6E;
+  border-radius: 10px;
+  padding: 12px 10px;
 }
