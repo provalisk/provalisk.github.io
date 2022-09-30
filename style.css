@@ -141,13 +141,13 @@ hr.a {
 
 @media only screen and (min-width: 300px) {
   body {
-    background-color: lightgreen;
+    background-color: lightgray;
   }
 }
   
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+    background-color: darkgray;
   }
 }
 
