@@ -160,7 +160,8 @@ header {
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 10px;
-    background-color: green;
+    background-color: gray;
+    height: 100px;
 }
 
 nav-title {
