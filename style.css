@@ -22,6 +22,7 @@ h2 {
   font-family: 'MG';
   text-transform: uppercase;
   font-size: 100px;
+  margin-block: 10px;
 }
 
 h3 {
@@ -79,6 +80,7 @@ a:visited {
 hr.a {
   border: 1px solid #FFB100;
   border-radius: 100px;
+  width: 80%;
 }
 
 /* Pill Styles */
@@ -233,4 +235,31 @@ header {
   0%{background-position:0% 50%}
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
+}
+
+/* IMAGE STYLING */
+
+img {
+  box-shadow: 16px 24px 48px 10px rgba(0, 0, 0, .1);
+  border-radius: 10px;
+  transform: scale(1);
+  overflow: hidden;
+  transition:box-shadow .5s, transform 1s;
+}
+
+img:hover {
+  box-shadow: 56px 72px 64px 0px rgba(0, 0, 0, .12), 24px 32px 40px 0px rgba(0, 0, 0, .08);
+  border-radius: 10px;
+  transform: scale(1.01);
+  overflow: hidden;
+  transition:box-shadow .5s, transform .5s;
+}
+
+/* HORIZONTAL CENTER CLASS */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
