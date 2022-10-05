@@ -58,19 +58,18 @@ p {
 
 a {
     color: #7CAB65;
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
-/* [DISABLED CURRENTLY TO PRESERVE CERTAIN FEATURES]
+/* [COLORS ARE CURRENTLY DISABLED TO PRESERVE AESTHETICS] */
 
 a:hover {
-    color: #7CAB65;
-    text-decoration: underline !important;
+    /* color: #7CAB65; */
+    text-decoration: underline;
 }
 
 a:visited {
-  color: #78A1BE;
-  text-decoration: none !important;
+  /* color: #78A1BE; */
 }
 
 */
@@ -147,13 +146,13 @@ hr.a {
 
 @media only screen and (min-width: 300px) {
   body {
-    background-color: lightgray;
+    background-color: white;
   }
 }
   
 @media only screen and (max-width: 600px) {
   body {
-    background-color: darkgray;
+    background-color: #464646;
   }
 }
 
@@ -179,9 +178,7 @@ header {
   display: flex;
 }
 
-.links a,
-.cta,
-.overlay__content a {
+.links a, .cta {
   font-family: "JB";
   font-weight: 500;
   color: #fff;
@@ -216,11 +213,11 @@ header {
 
 .cta:hover {
   color: #fff;
-  background: linear-gradient(-45deg, #659999, #d68040, #659999);
+  background: linear-gradient(-45deg, #FFB100, #78A1BE, #DB4A4C);
   background-size: 400% !important;
-  -webkit-animation: Gradient 10s ease infinite !important;
-  -moz-animation: Gradient 10s ease infinite !important;
-  animation: Gradient 10s ease infinite !important;
+  -webkit-animation: Gradient 10s ease infinite;
+  -moz-animation: Gradient 10s ease infinite;
+  animation: Gradient 10s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
@@ -238,6 +235,21 @@ header {
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
 }
+
+/* RESPONSIVE MOBILE HEADER SETTINGS */
+
+@media only screen and (max-width: 800px) {
+
+  header {
+    background-color: #000;
+    border-radius: 10px;
+  }
+  .cta {
+    display: none;
+  }
+  .links {
+    display: initial;
+  }
 
 /* IMAGE STYLING */
 
