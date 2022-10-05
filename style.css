@@ -170,6 +170,8 @@ header {
 
 .logo {
   margin-right: auto;
+  height: auto;
+  width: 166px;
 }
 
 .links {
