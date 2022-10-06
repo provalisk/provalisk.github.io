@@ -189,7 +189,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 24px 10%;
+  padding: 30px 10%;
   background-color: #000;
   border-radius: 10px;
 }
@@ -218,14 +218,14 @@ header {
 
 .links li a {
   transition: all 0.1s ease 0s;
-  padding: 10px 30px;
+  padding: 10px 10px;
 }
 
 .links li a:hover {
   color: #FFB100;
   background-color: #fff;
   border-radius: 10px;
-  padding: 10px 30px;
+  padding: 10px 10px;
 }
 
 .cta {
