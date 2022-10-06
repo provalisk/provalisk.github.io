@@ -280,9 +280,10 @@ footer {
   header {
     background-color: #000;
     border-radius: 10px;
+    padding: 30px 10%;
   }
   .cta {
-    display: none;
+    display: block;
   }
   .links {
     display: initial;
