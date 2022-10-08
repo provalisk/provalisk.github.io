@@ -16,6 +16,7 @@ h1 {
   font-family: 'MG';
   text-transform: uppercase;
   font-size: 120px;
+  margin-block: 10px;
 }
 
 h2 {
@@ -29,24 +30,28 @@ h3 {
   font-family: 'MG';
   text-transform: uppercase;
   font-size: 80px;
+  margin-block: 10px;
 }
 
 h4 {
   font-family: 'MG';
   text-transform: uppercase;
   font-size: 60px;
+  margin-block: 10px;
 }
 
 h5 {
   font-family: 'MG';
   text-transform: uppercase;
   font-size: 40px;
+  margin-block: 10px;
 }
 
 h6 {
   font-family: 'MG';
   text-transform: uppercase;
   font-size: 20px;
+  margin-block: 10px;
 }
 
 /* Paragraph and Link Styles */
@@ -72,14 +77,22 @@ a:visited {
   /* color: #78A1BE; */
 }
 
-*/
-
 /* Horizontal Divider */
 
-hr.a {
+hr.one {
   border: 1px solid #FFB100;
   border-radius: 100px;
   width: 80%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+hr.two {
+  border: 1px solid #FFB100;
+  border-radius: 100px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 /* HORIZONTAL CENTER CLASS */
