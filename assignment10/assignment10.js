@@ -81,10 +81,10 @@ function updateSal(company, employeeList){
         }
     }
 }
+updateSal(company, employeeList);
 console.log("PROBLEMO CINCO")
 console.log("!!! Updated Salaries and Revised Eligibility !!!")
 console.log(company)
-updateSal(company, employeeList);
 
 //PROBLEMO SEIS
 
