@@ -69,7 +69,8 @@ for (const employee of employeeList){
 }
 
 console.log("PROBLEMO CUATRO");
-console.log("!!! Total Salary of All Employees is: ${totalSalary} !!!");
+console.log(`!!! The Total Salary for Everyone At the Company is ${totalSalary} !!!`);
+//^had to use stupid quotes for this to work
 
 //PROBLEM CINCO
 
