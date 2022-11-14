@@ -1,1 +1,47 @@
+@font-face {
+    font-family: "JB";
+    src: url("/fonts/JetBrainsMono-Regular.woff2") format("woff");
+}
+  
+  @font-face {
+    font-family: "MG";
+    src: url("/fonts/Mongoose.ttf") format("truetype");
+}
 
+body {
+    font-family: 'JB';
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(315deg, #2A3129, #0A6746, #6F9D80, #46BFBE, #445C45);
+	background-size: 1000% 1000%;
+    animation: BackgroundGradient 20s ease infinite;
+}
+    @keyframes BackgroundGradient { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+h1 {
+    font-family: 'MG';
+    font-size: 100px;
+}
+  
+input {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: #000;
+  font-family: JB;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: #6F9D80;
+  padding: 12px;
+}
+
+input:hover {
+  background: #6F9D80;
+  text-decoration: none;
+  color: #fff;
+}
