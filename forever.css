@@ -104,24 +104,6 @@ hr.two {
   width: 80%;
 }
 
-/* IMAGE STYLING */
-
-img {
-  box-shadow: 16px 24px 48px 10px rgba(0, 0, 0, .1);
-  border-radius: 10px;
-  transform: scale(1);
-  overflow: hidden;
-  transition:box-shadow .5s, transform 1s;
-}
-
-img:hover {
-  box-shadow: 56px 72px 64px 0px rgba(0, 0, 0, .12), 24px 32px 40px 0px rgba(0, 0, 0, .08);
-  border-radius: 10px;
-  transform: scale(1.01);
-  overflow: hidden;
-  transition:box-shadow .5s, transform .5s;
-}
-
 /* Pill Styles */
 
 .pill {
@@ -302,3 +284,80 @@ footer {
     display: initial;
   }
 }
+
+img {
+  border-radius: 10px;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+  
+  .memory-game {
+    width: 1600px;
+    height: 840px;
+    margin: left;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .memory-game {
+    width: 540px;
+    height: 315px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+    }
+  }
+
+  .memory-card {
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+  }
+  
+  .memory-card:active {
+    transform: scale(0.97);
+    transition: transform .2s;
+  }
+  
+  .memory-card.flip {
+    transform: rotateY(180deg);
+  }
+  
+  .front-face {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #000;
+    border-radius: 10px;
+    background: #EBEBF0;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+  }
+  .back-face {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FFB100;
+    border-radius: 10px;
+    background: #000;
+    backface-visibility: hidden;
+  }
